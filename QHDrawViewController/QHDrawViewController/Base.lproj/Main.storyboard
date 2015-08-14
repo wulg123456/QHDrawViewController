@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5P1-fj-mdV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wr4-Uf-LbM">
+            <objects>
+                <navigationController id="5P1-fj-mdV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dqs-VL-NKY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kDE-uD-OYf" kind="relationship" relationship="rootViewController" id="JaN-8P-k7K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaU-q9-el3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1768" y="-2550"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DIi-h5-Bbg">
+            <objects>
+                <viewController id="kDE-uD-OYf" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nmn-Ia-Xg4"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKl-34-sb0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eGb-Pc-qtw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Km-wl-8nu">
+                                <rect key="frame" x="137" y="339" width="45" height="30"/>
+                                <state key="normal" title="去画画">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="push:" destination="kDE-uD-OYf" eventType="touchUpInside" id="sgw-7c-wKn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0D-Fe-oX1">
+                                <rect key="frame" x="0.0" y="64" width="320" height="267"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TV0-eV-Xf2"/>
+                    <connections>
+                        <outlet property="drawImage" destination="C0D-Fe-oX1" id="vcZ-6E-RoR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cIa-Sw-aZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1179" y="-2604"/>
+        </scene>
+        <!--Draw View Controller-->
+        <scene sceneID="zf4-im-tmu">
+            <objects>
+                <viewController storyboardIdentifier="DrawViewController" id="cJ6-Y6-ILt" customClass="DrawViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p4i-uX-dUH"/>
+                        <viewControllerLayoutGuide type="bottom" id="HAM-MM-t0p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0bf-1R-hEx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dB-vT-aqd" customClass="DrawPaletteView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                <color key="backgroundColor" red="1" green="0.89532456890000001" blue="0.59540293339999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="92V-84-tno">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VT-ql-fTJ">
+                                        <rect key="frame" x="16" y="16" width="22" height="22"/>
+                                        <state key="normal" image="icon_runbbsh_gray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="rubberBtnEvent:" destination="cJ6-Y6-ILt" eventType="touchUpInside" id="Z13-NT-sIv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAc-bW-n5r">
+                                        <rect key="frame" x="110" y="14" width="22" height="22"/>
+                                        <state key="normal" image="icon_draw_color_gray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="cJ6-Y6-ILt" eventType="touchUpInside" id="djF-K5-Ahx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vd-f9-wng">
+                                        <rect key="frame" x="60" y="16" width="22" height="22"/>
+                                        <state key="normal" image="aso_draw_black.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="chageWidth:" destination="cJ6-Y6-ILt" eventType="touchUpInside" id="C31-Ey-DRZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J61-mj-V2x">
+                                        <rect key="frame" x="290" y="16" width="22" height="22"/>
+                                        <state key="normal" image="icon_delegate_gray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cleanBtnEvent:" destination="cJ6-Y6-ILt" eventType="touchUpInside" id="HBJ-57-KaU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.7559131214" blue="0.89184648280000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="92V-84-tno" id="vDp-d8-9yf"/>
+                        <outlet property="changeColorBtn" destination="eAc-bW-n5r" id="7fX-Vv-OaG"/>
+                        <outlet property="chooseWidthBtn" destination="5vd-f9-wng" id="HjK-eA-IOO"/>
+                        <outlet property="cleanBtn" destination="J61-mj-V2x" id="7bf-AC-wGW"/>
+                        <outlet property="drawPaletteView" destination="1dB-vT-aqd" id="Ezh-AM-fIK"/>
+                        <outlet property="rubberBtn" destination="9VT-ql-fTJ" id="O1S-ps-C5R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7do-OX-ZmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681" y="-2588"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aso_draw_black.png" width="22" height="22"/>
+        <image name="icon_delegate_gray.png" width="22" height="22"/>
+        <image name="icon_draw_color_gray.png" width="22" height="22"/>
+        <image name="icon_runbbsh_gray.png" width="22" height="22"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

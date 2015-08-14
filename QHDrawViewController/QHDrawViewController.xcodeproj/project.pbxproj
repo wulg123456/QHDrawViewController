@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1ABA811B7D900800E596D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABA801B7D900800E596D3 /* main.m */; };
+		EC1ABA841B7D900800E596D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABA831B7D900800E596D3 /* AppDelegate.m */; };
+		EC1ABA871B7D900800E596D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABA861B7D900800E596D3 /* ViewController.m */; };
+		EC1ABA8A1B7D900800E596D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABA881B7D900800E596D3 /* Main.storyboard */; };
+		EC1ABA8C1B7D900800E596D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABA8B1B7D900800E596D3 /* Images.xcassets */; };
+		EC1ABA8F1B7D900800E596D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABA8D1B7D900800E596D3 /* LaunchScreen.xib */; };
+		EC1ABA9B1B7D900900E596D3 /* QHDrawViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABA9A1B7D900900E596D3 /* QHDrawViewControllerTests.m */; };
+		EC1ABAA91B7D905600E596D3 /* UIView+QHUIViewCtg.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABAA81B7D905600E596D3 /* UIView+QHUIViewCtg.m */; };
+		EC1ABAAF1B7D949C00E596D3 /* DrawPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABAAC1B7D949C00E596D3 /* DrawPaletteView.m */; };
+		EC1ABAB01B7D949C00E596D3 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABAAE1B7D949C00E596D3 /* DrawViewController.m */; };
+		EC1ABABB1B7D951800E596D3 /* icon_delegate_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB11B7D951800E596D3 /* icon_delegate_gray@2x.png */; };
+		EC1ABABC1B7D951800E596D3 /* icon_delegate_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB21B7D951800E596D3 /* icon_delegate_gray@3x.png */; };
+		EC1ABABD1B7D951800E596D3 /* icon_delegate_pink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB31B7D951800E596D3 /* icon_delegate_pink@2x.png */; };
+		EC1ABABE1B7D951800E596D3 /* icon_delegate_pink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB41B7D951800E596D3 /* icon_delegate_pink@3x.png */; };
+		EC1ABABF1B7D951800E596D3 /* icon_draw_color_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB51B7D951800E596D3 /* icon_draw_color_gray@2x.png */; };
+		EC1ABAC01B7D951800E596D3 /* icon_draw_color_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB61B7D951800E596D3 /* icon_draw_color_gray@3x.png */; };
+		EC1ABAC11B7D951800E596D3 /* icon_runbbsh_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB71B7D951800E596D3 /* icon_runbbsh_gray@2x.png */; };
+		EC1ABAC21B7D951800E596D3 /* icon_runbbsh_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB81B7D951800E596D3 /* icon_runbbsh_gray@3x.png */; };
+		EC1ABAC31B7D951800E596D3 /* icon_runbbsh_pink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAB91B7D951800E596D3 /* icon_runbbsh_pink@2x.png */; };
+		EC1ABAC41B7D951800E596D3 /* icon_runbbsh_pink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABABA1B7D951800E596D3 /* icon_runbbsh_pink@3x.png */; };
+		EC1ABAC91B7D953200E596D3 /* aso_draw_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAC51B7D953200E596D3 /* aso_draw_black@2x.png */; };
+		EC1ABACA1B7D953200E596D3 /* aso_draw_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAC61B7D953200E596D3 /* aso_draw_black@3x.png */; };
+		EC1ABACB1B7D953200E596D3 /* aso_draw_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAC71B7D953200E596D3 /* aso_draw_white@2x.png */; };
+		EC1ABACC1B7D953200E596D3 /* aso_draw_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAC81B7D953200E596D3 /* aso_draw_white@3x.png */; };
+		EC1ABACF1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ABACE1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1ABA951B7D900900E596D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1ABA731B7D900800E596D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1ABA7A1B7D900800E596D3;
+			remoteInfo = QHDrawViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1ABA7B1B7D900800E596D3 /* QHDrawViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHDrawViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1ABA7F1B7D900800E596D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1ABA801B7D900800E596D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1ABA821B7D900800E596D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC1ABA831B7D900800E596D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC1ABA851B7D900800E596D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC1ABA861B7D900800E596D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC1ABA891B7D900800E596D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1ABA8B1B7D900800E596D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC1ABA8E1B7D900800E596D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC1ABA941B7D900900E596D3 /* QHDrawViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHDrawViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1ABA991B7D900900E596D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1ABA9A1B7D900900E596D3 /* QHDrawViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHDrawViewControllerTests.m; sourceTree = "<group>"; };
+		EC1ABAA61B7D905600E596D3 /* QHDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHDefine.h; sourceTree = "<group>"; };
+		EC1ABAA71B7D905600E596D3 /* UIView+QHUIViewCtg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QHUIViewCtg.h"; sourceTree = "<group>"; };
+		EC1ABAA81B7D905600E596D3 /* UIView+QHUIViewCtg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QHUIViewCtg.m"; sourceTree = "<group>"; };
+		EC1ABAAB1B7D949C00E596D3 /* DrawPaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPaletteView.h; sourceTree = "<group>"; };
+		EC1ABAAC1B7D949C00E596D3 /* DrawPaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPaletteView.m; sourceTree = "<group>"; };
+		EC1ABAAD1B7D949C00E596D3 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		EC1ABAAE1B7D949C00E596D3 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		EC1ABAB11B7D951800E596D3 /* icon_delegate_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_delegate_gray@2x.png"; sourceTree = "<group>"; };
+		EC1ABAB21B7D951800E596D3 /* icon_delegate_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_delegate_gray@3x.png"; sourceTree = "<group>"; };
+		EC1ABAB31B7D951800E596D3 /* icon_delegate_pink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_delegate_pink@2x.png"; sourceTree = "<group>"; };
+		EC1ABAB41B7D951800E596D3 /* icon_delegate_pink@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_delegate_pink@3x.png"; sourceTree = "<group>"; };
+		EC1ABAB51B7D951800E596D3 /* icon_draw_color_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_draw_color_gray@2x.png"; sourceTree = "<group>"; };
+		EC1ABAB61B7D951800E596D3 /* icon_draw_color_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_draw_color_gray@3x.png"; sourceTree = "<group>"; };
+		EC1ABAB71B7D951800E596D3 /* icon_runbbsh_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_runbbsh_gray@2x.png"; sourceTree = "<group>"; };
+		EC1ABAB81B7D951800E596D3 /* icon_runbbsh_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_runbbsh_gray@3x.png"; sourceTree = "<group>"; };
+		EC1ABAB91B7D951800E596D3 /* icon_runbbsh_pink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_runbbsh_pink@2x.png"; sourceTree = "<group>"; };
+		EC1ABABA1B7D951800E596D3 /* icon_runbbsh_pink@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_runbbsh_pink@3x.png"; sourceTree = "<group>"; };
+		EC1ABAC51B7D953200E596D3 /* aso_draw_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aso_draw_black@2x.png"; sourceTree = "<group>"; };
+		EC1ABAC61B7D953200E596D3 /* aso_draw_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aso_draw_black@3x.png"; sourceTree = "<group>"; };
+		EC1ABAC71B7D953200E596D3 /* aso_draw_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aso_draw_white@2x.png"; sourceTree = "<group>"; };
+		EC1ABAC81B7D953200E596D3 /* aso_draw_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aso_draw_white@3x.png"; sourceTree = "<group>"; };
+		EC1ABACD1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewWithBlockOrSEL.h; sourceTree = "<group>"; };
+		EC1ABACE1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewWithBlockOrSEL.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1ABA781B7D900800E596D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1ABA911B7D900900E596D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1ABA721B7D900800E596D3 = {
+			isa = PBXGroup;
+			children = (
+				EC1ABA7D1B7D900800E596D3 /* QHDrawViewController */,
+				EC1ABA971B7D900900E596D3 /* QHDrawViewControllerTests */,
+				EC1ABA7C1B7D900800E596D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1ABA7C1B7D900800E596D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABA7B1B7D900800E596D3 /* QHDrawViewController.app */,
+				EC1ABA941B7D900900E596D3 /* QHDrawViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1ABA7D1B7D900800E596D3 /* QHDrawViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABAA41B7D903000E596D3 /* QHDrawCore */,
+				EC1ABA821B7D900800E596D3 /* AppDelegate.h */,
+				EC1ABA831B7D900800E596D3 /* AppDelegate.m */,
+				EC1ABA851B7D900800E596D3 /* ViewController.h */,
+				EC1ABA861B7D900800E596D3 /* ViewController.m */,
+				EC1ABA881B7D900800E596D3 /* Main.storyboard */,
+				EC1ABA8B1B7D900800E596D3 /* Images.xcassets */,
+				EC1ABA8D1B7D900800E596D3 /* LaunchScreen.xib */,
+				EC1ABA7E1B7D900800E596D3 /* Supporting Files */,
+			);
+			path = QHDrawViewController;
+			sourceTree = "<group>";
+		};
+		EC1ABA7E1B7D900800E596D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABA7F1B7D900800E596D3 /* Info.plist */,
+				EC1ABA801B7D900800E596D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1ABA971B7D900900E596D3 /* QHDrawViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABA9A1B7D900900E596D3 /* QHDrawViewControllerTests.m */,
+				EC1ABA981B7D900900E596D3 /* Supporting Files */,
+			);
+			path = QHDrawViewControllerTests;
+			sourceTree = "<group>";
+		};
+		EC1ABA981B7D900900E596D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABA991B7D900900E596D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1ABAA41B7D903000E596D3 /* QHDrawCore */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABAAB1B7D949C00E596D3 /* DrawPaletteView.h */,
+				EC1ABAAC1B7D949C00E596D3 /* DrawPaletteView.m */,
+				EC1ABAAD1B7D949C00E596D3 /* DrawViewController.h */,
+				EC1ABAAE1B7D949C00E596D3 /* DrawViewController.m */,
+				EC1ABAA51B7D905600E596D3 /* QHSupports */,
+				EC1ABAAA1B7D906900E596D3 /* resource */,
+			);
+			path = QHDrawCore;
+			sourceTree = "<group>";
+		};
+		EC1ABAA51B7D905600E596D3 /* QHSupports */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABACD1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.h */,
+				EC1ABACE1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.m */,
+				EC1ABAA61B7D905600E596D3 /* QHDefine.h */,
+				EC1ABAA71B7D905600E596D3 /* UIView+QHUIViewCtg.h */,
+				EC1ABAA81B7D905600E596D3 /* UIView+QHUIViewCtg.m */,
+			);
+			path = QHSupports;
+			sourceTree = "<group>";
+		};
+		EC1ABAAA1B7D906900E596D3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC1ABAB11B7D951800E596D3 /* icon_delegate_gray@2x.png */,
+				EC1ABAB21B7D951800E596D3 /* icon_delegate_gray@3x.png */,
+				EC1ABAB31B7D951800E596D3 /* icon_delegate_pink@2x.png */,
+				EC1ABAB41B7D951800E596D3 /* icon_delegate_pink@3x.png */,
+				EC1ABAB51B7D951800E596D3 /* icon_draw_color_gray@2x.png */,
+				EC1ABAB61B7D951800E596D3 /* icon_draw_color_gray@3x.png */,
+				EC1ABAB71B7D951800E596D3 /* icon_runbbsh_gray@2x.png */,
+				EC1ABAB81B7D951800E596D3 /* icon_runbbsh_gray@3x.png */,
+				EC1ABAB91B7D951800E596D3 /* icon_runbbsh_pink@2x.png */,
+				EC1ABAC51B7D953200E596D3 /* aso_draw_black@2x.png */,
+				EC1ABAC61B7D953200E596D3 /* aso_draw_black@3x.png */,
+				EC1ABAC71B7D953200E596D3 /* aso_draw_white@2x.png */,
+				EC1ABAC81B7D953200E596D3 /* aso_draw_white@3x.png */,
+				EC1ABABA1B7D951800E596D3 /* icon_runbbsh_pink@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1ABA7A1B7D900800E596D3 /* QHDrawViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1ABA9E1B7D900900E596D3 /* Build configuration list for PBXNativeTarget "QHDrawViewController" */;
+			buildPhases = (
+				EC1ABA771B7D900800E596D3 /* Sources */,
+				EC1ABA781B7D900800E596D3 /* Frameworks */,
+				EC1ABA791B7D900800E596D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHDrawViewController;
+			productName = QHDrawViewController;
+			productReference = EC1ABA7B1B7D900800E596D3 /* QHDrawViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1ABA931B7D900900E596D3 /* QHDrawViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1ABAA11B7D900900E596D3 /* Build configuration list for PBXNativeTarget "QHDrawViewControllerTests" */;
+			buildPhases = (
+				EC1ABA901B7D900900E596D3 /* Sources */,
+				EC1ABA911B7D900900E596D3 /* Frameworks */,
+				EC1ABA921B7D900900E596D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1ABA961B7D900900E596D3 /* PBXTargetDependency */,
+			);
+			name = QHDrawViewControllerTests;
+			productName = QHDrawViewControllerTests;
+			productReference = EC1ABA941B7D900900E596D3 /* QHDrawViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1ABA731B7D900800E596D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = imqiuhang;
+				TargetAttributes = {
+					EC1ABA7A1B7D900800E596D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC1ABA931B7D900900E596D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC1ABA7A1B7D900800E596D3;
+					};
+				};
+			};
+			buildConfigurationList = EC1ABA761B7D900800E596D3 /* Build configuration list for PBXProject "QHDrawViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1ABA721B7D900800E596D3;
+			productRefGroup = EC1ABA7C1B7D900800E596D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1ABA7A1B7D900800E596D3 /* QHDrawViewController */,
+				EC1ABA931B7D900900E596D3 /* QHDrawViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1ABA791B7D900800E596D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1ABAC01B7D951800E596D3 /* icon_draw_color_gray@3x.png in Resources */,
+				EC1ABABC1B7D951800E596D3 /* icon_delegate_gray@3x.png in Resources */,
+				EC1ABACB1B7D953200E596D3 /* aso_draw_white@2x.png in Resources */,
+				EC1ABA8A1B7D900800E596D3 /* Main.storyboard in Resources */,
+				EC1ABA8F1B7D900800E596D3 /* LaunchScreen.xib in Resources */,
+				EC1ABAC91B7D953200E596D3 /* aso_draw_black@2x.png in Resources */,
+				EC1ABABE1B7D951800E596D3 /* icon_delegate_pink@3x.png in Resources */,
+				EC1ABAC21B7D951800E596D3 /* icon_runbbsh_gray@3x.png in Resources */,
+				EC1ABAC31B7D951800E596D3 /* icon_runbbsh_pink@2x.png in Resources */,
+				EC1ABA8C1B7D900800E596D3 /* Images.xcassets in Resources */,
+				EC1ABACA1B7D953200E596D3 /* aso_draw_black@3x.png in Resources */,
+				EC1ABABD1B7D951800E596D3 /* icon_delegate_pink@2x.png in Resources */,
+				EC1ABAC11B7D951800E596D3 /* icon_runbbsh_gray@2x.png in Resources */,
+				EC1ABAC41B7D951800E596D3 /* icon_runbbsh_pink@3x.png in Resources */,
+				EC1ABABF1B7D951800E596D3 /* icon_draw_color_gray@2x.png in Resources */,
+				EC1ABABB1B7D951800E596D3 /* icon_delegate_gray@2x.png in Resources */,
+				EC1ABACC1B7D953200E596D3 /* aso_draw_white@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1ABA921B7D900900E596D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1ABA771B7D900800E596D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1ABAB01B7D949C00E596D3 /* DrawViewController.m in Sources */,
+				EC1ABA871B7D900800E596D3 /* ViewController.m in Sources */,
+				EC1ABA841B7D900800E596D3 /* AppDelegate.m in Sources */,
+				EC1ABA811B7D900800E596D3 /* main.m in Sources */,
+				EC1ABACF1B7D95B900E596D3 /* AlertViewWithBlockOrSEL.m in Sources */,
+				EC1ABAAF1B7D949C00E596D3 /* DrawPaletteView.m in Sources */,
+				EC1ABAA91B7D905600E596D3 /* UIView+QHUIViewCtg.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1ABA901B7D900900E596D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1ABA9B1B7D900900E596D3 /* QHDrawViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1ABA961B7D900900E596D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1ABA7A1B7D900800E596D3 /* QHDrawViewController */;
+			targetProxy = EC1ABA951B7D900900E596D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1ABA881B7D900800E596D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1ABA891B7D900800E596D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1ABA8D1B7D900800E596D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1ABA8E1B7D900800E596D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1ABA9C1B7D900900E596D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC1ABA9D1B7D900900E596D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1ABA9F1B7D900900E596D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHDrawViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1ABAA01B7D900900E596D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHDrawViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1ABAA21B7D900900E596D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QHDrawViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHDrawViewController.app/QHDrawViewController";
+			};
+			name = Debug;
+		};
+		EC1ABAA31B7D900900E596D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QHDrawViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHDrawViewController.app/QHDrawViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1ABA761B7D900800E596D3 /* Build configuration list for PBXProject "QHDrawViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1ABA9C1B7D900900E596D3 /* Debug */,
+				EC1ABA9D1B7D900900E596D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1ABA9E1B7D900900E596D3 /* Build configuration list for PBXNativeTarget "QHDrawViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1ABA9F1B7D900900E596D3 /* Debug */,
+				EC1ABAA01B7D900900E596D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1ABAA11B7D900900E596D3 /* Build configuration list for PBXNativeTarget "QHDrawViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1ABAA21B7D900900E596D3 /* Debug */,
+				EC1ABAA31B7D900900E596D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1ABA731B7D900800E596D3 /* Project object */;
+}
